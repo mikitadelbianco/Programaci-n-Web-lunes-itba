@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(170, 46, 5);
+}
+
+h1{
+    color: rgb(76, 1, 1);
+}
+p{
+    color: rgb(65, 2, 2);
+}
+
+#parrafoEnBlanco{ 
+    font-size: 30px;
+    color: white;
+
+}
+
+.margenIzquierdo{
+    margin-left: 50px;
+}
+
+#caja{
+    border: 20px solid red;
+    padding: 20px;
+    margin: 20px;
+}
