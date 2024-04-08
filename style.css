@@ -1,0 +1,123 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 184, 145);
+}
+
+header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 130px;
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    display: flex; /* Convertimos el nav en un flex container */
+    align-items: center; /* Centramos los elementos verticalmente */
+}
+
+header img {
+    margin-left: 16px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    width: 120px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin-left: 16px; /* Espacio entre las etiquetas "a" */
+}
+
+main{
+    background-color: rgb(255, 255, 255); 
+}
+
+#nosotros{
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+#hero-banner{
+    background-image: url(../images/vecteezy_ilustracao-de-fundo-gradiente-laranja-e-preto_7262205.jpg);
+}
+#artistas{
+    text-align: center;
+    font-size: x-large;
+}
+
+#imagenart1{
+    margin-left: 32px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    width: 200px;
+}
+
+#imagenart2{
+    margin-left: 32px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    width: 200px;
+}
+
+.cuadros{
+    margin-left: 20px;
+}
+
+#obras{
+    background-color: rgb(222, 184, 145);
+    color: #653702;
+    text-align: center;
+
+}
+
+#imagenFooter {
+    margin-left: 32px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    width: 120px;
+}
+
+footer {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: rgb(255, 255, 255);
+    padding: 15px; /* Añade un poco de espacio alrededor de los elementos */
+}
+
+.footerDerecha {
+    margin-left: auto; /* Mueve los elementos al final del contenedor */
+
+}
+
+/*rgb(222, 184, 145) background color orignal */
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    /* Estilos para dispositivos con un ancho máximo de 768px */
+}
+
+/* Estilos para dispositivos de escritorio */
+@media only screen and (min-width: 769px) {
+    /* Estilos para dispositivos con un ancho mínimo de 769px (escritorio) */
+}
+
+.container {
+    width: 100%; /* Utiliza el ancho completo del contenedor padre */
+    max-width: 1200px; /* Limita el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+img {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto; /* Mantiene la relación de aspecto original */
+}
