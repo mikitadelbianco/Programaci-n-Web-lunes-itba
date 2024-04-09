@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
 
 body{
@@ -18,10 +19,11 @@ header {
     top: 0px;
 }
 
+
 nav {
     display: flex; /* Convertimos el nav en un flex container */
     align-items: center; /* Centramos los elementos verticalmente */
-    font-size: 2vw;
+
 }
 
 header img {
@@ -42,18 +44,19 @@ main{
 }
 
 #nosotros{
+    padding-top: 150px;
     text-align: center;
-    font-size: 2vw;
-}
 
-#hero-banner{
     background-image: url(../images/vecteezy_ilustracao-de-fundo-gradiente-laranja-e-preto_7262205.jpg);
 }
 
 
+
+
 #artistas{
+    padding-top: 150px;
     text-align: center;
-    font-size: 2vw;
+
     margin-bottom: 200px;
 }
 
@@ -79,10 +82,11 @@ main{
 }
 
 #obras{
+    padding-top: 150px;
     background-color: rgb(222, 184, 145);
     color: #653702;
     text-align: center;
-    font-size: 2vw;
+
     margin-bottom: 200px;
 }
 
