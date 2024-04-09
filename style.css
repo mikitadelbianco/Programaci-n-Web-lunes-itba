@@ -12,7 +12,7 @@ body{
 header {
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: 100vw;
+    width: 100%;
     height: 130px;
     position: sticky;
     top: 0px;
@@ -21,13 +21,12 @@ header {
 nav {
     display: flex; /* Convertimos el nav en un flex container */
     align-items: center; /* Centramos los elementos verticalmente */
+    font-size: 2vw;
 }
 
 header img {
-    margin-left: 16px;
-    margin-top: 15px;
-    margin-bottom: 16px;
-    width: 120px;
+    
+    width: 10vw;
 }
 
 header nav a {
@@ -39,11 +38,12 @@ header nav a {
 
 main{
     background-color: rgb(255, 255, 255); 
+    width: 100%;
 }
 
 #nosotros{
     text-align: center;
-    font-size: x-large;
+    font-size: 2vw;
 }
 
 #hero-banner{
@@ -53,7 +53,8 @@ main{
 
 #artistas{
     text-align: center;
-    font-size: x-large;
+    font-size: 2vw;
+    margin-bottom: 200px;
 }
 
 
@@ -61,46 +62,47 @@ main{
     margin-left: 32px;
     margin-top: 15px;
     margin-bottom: 16px;
-    width: 200px;
-    border: 10px solid #f37e01;
+    width: 20vw;
+    border: 1vw solid #f37e01;
 }
 
 #imagenart2{
     margin-left: 32px;
     margin-top: 15px;
     margin-bottom: 16px;
-    width: 200px;
-    border: 10px solid #f37e01;
+    width: 20vw;
+    border: 1vw solid #f37e01;
 }
 
 .cuadros{
-    margin-left: 20px;
+    width: 25vw;
 }
 
 #obras{
     background-color: rgb(222, 184, 145);
     color: #653702;
     text-align: center;
-
+    font-size: 2vw;
+    margin-bottom: 200px;
 }
 
 #imagenFooter {
     margin-left: 32px;
     margin-top: 15px;
     margin-bottom: 16px;
-    width: 120px;
+    width: 10vw;
 }
 
 footer {
     display: flex;
     align-items: center; /* Centra verticalmente los elementos */
     background-color: rgb(255, 255, 255);
-    padding: 15px;/* Añade un poco de espacio alrededor de los elementos */
+    width: 100%;
 }
 
 .footerDerecha {
     margin-left: auto; /* Mueve los elementos al final del contenedor */
-
+    width: 20vw;
 }
 
 /*rgb(222, 184, 145) background color orignal */
