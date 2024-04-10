@@ -1,7 +1,5 @@
 
 *{
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
 
 }
@@ -15,7 +13,6 @@ header {
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 130px;
-    position: sticky;
     top: 0px;
 }
 
@@ -49,8 +46,6 @@ main{
 
     background-image: url(../images/vecteezy_ilustracao-de-fundo-gradiente-laranja-e-preto_7262205.jpg);
 }
-
-
 
 
 #artistas{
@@ -110,16 +105,6 @@ footer {
 }
 
 /*rgb(222, 184, 145) background color orignal */
-
-/* Estilos para dispositivos móviles */
-@media only screen and (max-width: 768px) {
-    /* Estilos para dispositivos con un ancho máximo de 768px */
-}
-
-/* Estilos para dispositivos de escritorio */
-@media only screen and (min-width: 769px) {
-    /* Estilos para dispositivos con un ancho mínimo de 769px (escritorio) */
-}
 
 .container {
     width: 100%; /* Utiliza el ancho completo del contenedor padre */
