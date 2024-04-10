@@ -43,8 +43,6 @@ main{
 #nosotros{
     padding-top: 150px;
     text-align: center;
-
-    background-image: url(../images/vecteezy_ilustracao-de-fundo-gradiente-laranja-e-preto_7262205.jpg);
 }
 
 
@@ -94,7 +92,7 @@ main{
 
 footer {
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos */
+    align-items: center; 
     background-color: rgb(255, 255, 255);
     width: 100%;
 }
@@ -104,7 +102,6 @@ footer {
     width: 20vw;
 }
 
-/*rgb(222, 184, 145) background color orignal */
 
 .container {
     width: 100%; /* Utiliza el ancho completo del contenedor padre */
@@ -115,4 +112,16 @@ footer {
 img {
     max-width: 100%; /* La imagen no será más ancha que su contenedor */
     height: auto; /* Mantiene la relación de aspecto original */
+}
+
+.custom-card-title{
+    font-size: xxx-large;
+}
+.custom-card-text{
+    padding: 15px;
+    font-size: x-large;
+}
+
+.navbar-custom {
+    background-color: white;
 }
