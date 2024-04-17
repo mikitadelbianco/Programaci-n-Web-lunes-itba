@@ -1,127 +1,27 @@
+.img-footer{
+    width: 10vw !important;
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-*{
-    box-sizing: border-box;
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
 
 }
-
-body{
-    background-color: rgb(222, 184, 145);
-}
-
-header {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 130px;
-    top: 0px;
-}
-
-
-nav {
-    display: flex; /* Convertimos el nav en un flex container */
-    align-items: center; /* Centramos los elementos verticalmente */
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
 
 }
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
 
-header img {
-    
-    width: 10vw;
 }
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
 
-header nav a {
-    text-decoration: none;
-    color: black;
-    background-color: rgb(255, 255, 255);
-    margin-left: 16px; /* Espacio entre las etiquetas "a" */
 }
-
-main{
-    background-color: rgb(255, 255, 255); 
-    width: 100%;
-}
-
-#nosotros{
-    padding-top: 150px;
-    text-align: center;
-}
-
-
-#artistas{
-    padding-top: 150px;
-    text-align: center;
-
-    margin-bottom: 200px;
-}
-
-
-#imagenart1{
-    margin-left: 32px;
-    margin-top: 15px;
-    margin-bottom: 16px;
-    width: 20vw;
-    border: 1vw solid #f37e01;
-}
-
-#imagenart2{
-    margin-left: 32px;
-    margin-top: 15px;
-    margin-bottom: 16px;
-    width: 20vw;
-    border: 1vw solid #f37e01;
-}
-
-.cuadros{
-    width: 25vw;
-}
-
-#obras{
-    padding-top: 150px;
-    background-color: rgb(222, 184, 145);
-    color: #653702;
-    text-align: center;
-
-    margin-bottom: 200px;
-}
-
-#imagenFooter {
-    margin-left: 32px;
-    margin-top: 15px;
-    margin-bottom: 16px;
-    width: 10vw;
-}
-
-footer {
-    display: flex;
-    align-items: center; 
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-}
-
-.footerDerecha {
-    margin-left: auto; /* Mueve los elementos al final del contenedor */
-    width: 20vw;
-}
-
-
-.container {
-    width: 100%; /* Utiliza el ancho completo del contenedor padre */
-    max-width: 1200px; /* Limita el ancho máximo del contenedor */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
-}
-
-img {
-    max-width: 100%; /* La imagen no será más ancha que su contenedor */
-    height: auto; /* Mantiene la relación de aspecto original */
-}
-
-.custom-card-title{
-    font-size: xxx-large;
-}
-.custom-card-text{
-    padding: 15px;
-    font-size: x-large;
-}
-
-.navbar-custom {
-    background-color: white;
-}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
