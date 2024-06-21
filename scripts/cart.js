@@ -16,12 +16,15 @@ document.addEventListener("DOMContentLoaded", function() {
         const listItem = document.createElement('li');
         listItem.className = 'dropdown-item';
         listItem.innerHTML = `
-          <span>${product.name} - $${product.price} </span>
+          <span>${product.name} - $${product.price} - cantidad: ${product.qty} - Total: $${product.total_price}</span>
           <button class="btn btn-danger btn-sm remove-from-cart" data-id="${product.id}"> X</button>
         `;
         cartList.appendChild(listItem);
       });
-
+	    const objButton = document.createElement('li');
+	    objButton.className= 'dropdown-item';
+	    objButton.innerHTML = `<a class="btn btn-success" href="finishshop.html">Finalizar Compra</a>`
+	cartList.appendChild(objButton);
     }
 
     // Update cart count in navbar
@@ -30,14 +33,24 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   
     // Add product to cart
-    function addToCart(productId,productName,productPrice) {
-      const product = {
+    function addToCart(productId,productName,productPrice, dataImage) {
+      const index = cartItems.findIndex(item => item.id == productId);
+	if (index !== -1){
+		cartItems[index].qty +=1;
+		cartItems[index].total_price = cartItems[index].qty * cartItems[index].price
+	}
+	    else{
+	const product = {
         id: productId,
         name: productName,
-        price: productPrice
+        price: productPrice,
+	qty: 1,
+	total_price : productPrice,
+	image : dataImage
       }
  
       cartItems.push(product);
+	    }
       localStorage.setItem('cartItems', JSON.stringify(cartItems));
       displayCartItems();
       updateCartCount();
@@ -68,7 +81,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const productId = button.getAttribute('data-id');
         const productName = button.getAttribute('data-name');
         const productPrice = button.getAttribute('data-price');
-        addToCart(productId,productName,productPrice);
+	const productImage = button.getAttribute('data-image'); 
+        addToCart(productId,productName,productPrice, productImage);
       });
     });
   

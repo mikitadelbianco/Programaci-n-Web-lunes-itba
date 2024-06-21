@@ -1,7 +1,6 @@
 .img-footer{
     width: 10vw !important;
 }
-/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
@@ -22,6 +21,21 @@
 @media (min-width: 1200px) {  
 
 }
- 
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+.card {
+margin-top: 50px;
+align-items : center;
+}
+
+.imagen-cambiada {
+width : 200px;
+height: 300px;
+}
+
+ .fixed-button {
+        position: fixed;
+        top: 20px; /* Ajusta según sea necesario */
+        right: 20px; /* Ajusta según sea necesario */
+        z-index: 1000; /* Asegura que el botón esté encima de otros elementos */
+      }
+
